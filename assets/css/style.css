@@ -1,0 +1,2714 @@
+        /* PUBLIC  */
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: var(--bs-body-font-family);
+}
+h2,h4,h5{
+
+font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+font-weight: 700;
+
+}
+h3{
+    margin-top: 10px;
+    text-align: center;
+    color: #6c757d !important;
+    font-size: 23px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-bottom: 45px;
+}
+         /* HEADER SECTION*/
+.container{
+    width: 80%;
+    margin: auto;
+}
+.header .logo-navbar{
+    float:left;
+    width:40%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.navbar{
+    overflow: hidden;
+    width: 100%;
+    margin-bottom:50px;
+    position: fixed;
+    background-color: black;
+    top:0;
+    z-index: 99;
+}
+.logo-navbar img{
+    width:40%;
+}
+.header .content-navbar{
+    float:right;
+    width:60%;
+    margin-top: 30px;
+}
+.content-navbar .navbar-lists {
+    margin-left: 240px;
+    margin-top: 10px;
+}
+.content-navbar .navbar-lists li{
+    display:inline-block;
+}
+.navbar-lists li a{
+    font-size: 20px;
+    margin-right: 15px;
+    color:white;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.navbar-lists li a:hover{
+    color:#cca000;
+}
+          /* START HEADER CONTENT */
+
+.header{
+    overflow: hidden;
+    background-image: url(../image/header-bg.jpg);
+    background-position: 0 -50px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:100vh;
+}
+.header .header-content{
+   text-align: center;
+   padding-top: 160px;
+   padding-bottom: 100px;
+   margin-top:150px;
+}
+.header .header-content h1{
+    font-size: 35px;
+    color:white;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    line-height: 1.5rem;
+    font-style: italic;
+}
+.header .header-content h2{
+    font-size: 75px;
+    color:white;
+    margin-bottom: 45px;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.header .header-content .btn-header{
+    background-color: #ffc800;
+    border-color: #ffc800;
+    padding:20px 45px;
+    color:white;
+    font-size:25px;
+    font-weight: bold;
+    border-radius: 6px;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.header .header-content .btn-header:hover{
+    background-color: #d9aa00;
+    border-color: #cca000;
+    cursor: pointer;
+}
+           /*START SERVICES SECTION */
+.services{
+    overflow: hidden;
+}
+.services .h2-serv{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.services .item {
+    float:left;
+    width:33.33%;
+    padding-top: 30px;
+    box-sizing: border-box;
+    padding-right: 40px;
+}
+.services .item i{
+    color:white;
+    background-color: #ffc800;
+    width:150px;
+    height: 150px;
+    font-size: 80px;
+    border-radius: 50%;
+    line-height: 150px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 100px;
+}
+.services .item h4{
+   text-align: center;
+   font-weight: bold;
+   font-size: 30px;
+   font-weight: 700;
+   line-height: 1.2;
+}
+.services .item p{
+    margin-top:15px;
+    color: #6c757d !important;
+    margin-top: 20px;
+    width:100%;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 100px;
+    line-height: 1.8rem;
+}
+
+            /* START PORTFOLIO SECTION */
+
+.portfolio{
+    background-color: rgba(248,249,250,1);
+    overflow: hidden;
+}
+.portfolio .h2-h3port .h2-port{
+    text-align: center;
+    font-size: 55px;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    padding-bottom: 30px;
+    line-height: 1.2rem;
+    padding-top: 50px;
+}
+.portfolio .h2-h3port{
+padding-top: 20px;
+}
+.portfolio .portfolio-content {
+    overflow: hidden;
+}
+.portfolio .portfolio-content .image{
+    position:relative;
+    background-size: cover;
+}
+.portfolio .portfolio-content .image:hover{
+    cursor: pointer;
+}
+.portfolio .portfolio-content .items-port .image img {
+    width: 100%;
+}
+.portfolio .portfolio-content .items-port{
+     float:left;
+     width:30.67%;
+     background-color:white;
+     margin-right: 25px;
+     margin-bottom: 100px;
+     text-align: center;
+}
+.portfolio-content .items-port .but-img h2{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-bottom: 15px;
+    line-height: 1.2rem;
+    padding-top: 25px;
+}
+.portfolio-content .items-port .but-img h3{
+    margin-bottom: 20px;
+}
+.portfolio .items-port .overlay{
+    position:absolute;
+    background-color: #d9aa00;
+    opacity: 0.9;
+    top:0;
+    right: 0;
+    bottom:0;
+    left: 0;
+    display: none;
+    color:white;
+    text-align: center;
+    font-size: 70px;
+    line-height:280px;
+    transition: opacity 2s;
+}
+.portfolio .items-port .image:hover .overlay{
+    display: block;
+}
+          /* START ABOUT SECTION */
+.about .top h2{
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.about  .items .first-item {
+    overflow: hidden;
+    margin:auto;
+    padding-bottom: 50px;
+}
+.about  .items .first-item .content{
+    float:left;
+    width:40%;
+} 
+.h3 , .h4{
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.about  .items .first-item .content .he1{
+    margin-left: 355px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.2rem;
+    width:30%;
+    margin-bottom: 20px;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.about  .items .first-item .content .he2{
+    margin-left: 200px;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 1.2rem;
+    margin-bottom: 5px;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.about  .items .first-item .content p{
+   line-height: 1.8rem;
+   color: #6c757d !important;
+   width:75%;
+   margin-left:120px;
+   font-size: 22px;
+   text-align:right;
+   margin-top:15px;
+}
+.about .items .first-item .circ-img img{
+    width:100%;
+    border-radius: 50%;
+    border-width: 5px;
+    margin: center;
+    padding-top: 5px;
+    margin-left: 6px;
+    position:absolute;
+    width:175px;
+    height:175px;
+}
+.about .items .first-item .circ-img{
+    float:right;
+    width:20%;
+    background-color:  #e9ecef;
+    border-radius: 50%;
+    margin-right: 500px;
+    width:187px;
+    height:187px;
+    position:relative;
+}
+.about .items .seconed-item .content{
+    float:right;
+    width:37%;
+    padding-left: 30px;
+}
+.about .items .seconed-item .circ-img{
+    float:left;
+    width:20%;
+    background-color:  #e9ecef;
+    border-radius: 50%;
+    margin-left: 540px;
+    width:187px;
+    height:187px;
+    position:relative;
+}
+.about .items .seconed-item .circ-img img{
+    width:100%;
+    border-radius: 50%;
+    border-width: 5px;
+    margin: center;
+    padding-top: 5px;
+    margin-left: 6px;
+    position:absolute;
+    width:175px;
+    height:175px;
+}
+.about .items .seconed-item{
+    overflow: hidden;
+    margin:auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.about .items .seconed-item .content .he1{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.2rem;
+    width:50%;
+    margin-bottom: 20px;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.about .items .seconed-item .content .he2{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 1.8rem;
+    margin-bottom: 5px;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.about .items .seconed-item .content p{
+    margin-top:15px;
+    line-height: 1.8rem;
+    color: #6c757d !important;
+    width:81%;
+    font-size: 22px;
+}
+.about  .items .third-item {
+    overflow: hidden;
+    margin:auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.about  .items .third-item .content{
+    float:left;
+    width:40%;
+} 
+.h3 , .h4{
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.about  .items .third-item .content .he1{
+    margin-left: 300px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.2rem;
+    width:50%;
+    margin-bottom: 20px;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.about  .items .third-item .content .he2{
+    margin-left: 200px;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 1.2rem;
+    margin-bottom: 5px;
+    width:80%;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.about  .items .third-item .content p{
+    margin-top:15px;
+   line-height: 1.8rem;
+   color: #6c757d !important;
+   width:75%;
+   margin-left:120px;
+   font-size: 22px;
+   text-align:right;
+}
+
+.about .items .third-item .circ-img img{
+    width:100%;
+    border-radius: 50%;
+    border-width: 5px;
+    margin: center;
+    padding-top: 5px;
+    margin-left: 6px;
+    position:absolute;
+    width:175px;
+    height:175px;
+}
+.about .items .third-item .circ-img{
+    float:right;
+    width:20%;
+    background-color:  #e9ecef;
+    border-radius: 50%;
+    margin-right: 490px;
+    width:187px;
+    height:187px;
+    position:relative;
+}
+.about .items .fourth-item .content{
+    float:right;
+    width:37%;
+    padding-left: 30px;
+}
+.about .items .fourth-item .circ-img{
+    float:left;
+    width:20%;
+    background-color:  #e9ecef;
+    border-radius: 50%;
+    margin-left: 540px;
+    width:187px;
+    height:187px;
+    position:relative;
+}
+.about .items .fourth-item .circ-img img{
+    width:100%;
+    border-radius: 50%;
+    border-width: 5px;
+    margin: center;
+    padding-top: 5px;
+    margin-left: 6px;
+    position:absolute;
+    width:175px;
+    height:175px;
+}
+.about .items .fourth-item{
+    overflow: hidden;
+    margin:auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.about .items .fourth-item .content .he1{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.2rem;
+    width:50%;
+    margin-bottom: 20px;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.about .items .fourth-item .content .he2{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 1.2rem;
+    margin-bottom: 5px;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.about .items .fourth-item .content p{
+    margin-top:15px;
+    line-height: 1.8rem;
+    color: #6c757d !important;
+    width:81%;
+    font-size: 22px;
+}
+.about .items .fifth-item .circ-img1{
+    background-color:  #e9ecef;
+    border-radius: 50%;
+    margin-left: 540px;
+    width:187px;
+    height:187px;
+    position:relative;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+.about .items .fifth-item .circ-img2{
+    border-radius: 50%;
+    border-width: 5px;
+    margin: auto;
+    margin-left: 8px;
+    margin-top: 8px;
+    position:absolute;
+    width:170px;
+    height:170px;
+    background-color: #ffc800;
+}
+.about .items .fifth-item .circ-img2 h4{
+    font-size: 25px;
+    margin-top: 35px;
+    margin-left: 50px;
+    font-weight: bold;
+    color:white;
+}
+         /* Line Between Images */
+.about .items .first-item {
+    position:relative;
+    z-index: 2;
+}
+.about .items .first-item .circ-img::after{
+    content:' ';
+    position:absolute;
+    width:2px;
+    height:300px;
+    background-color: #e9ecef;
+    z-index: 1;
+    bottom:-300px;
+    left:90px;
+    top:180px;
+}
+.about .items .seconed-item {
+    position:relative;
+}
+.about .items .seconed-item .circ-img::before{
+    content:' ';
+    position:absolute;
+    width:2px;
+    height:300px;
+    background-color: #e9ecef;
+    top:-300px;
+    left:77.9px;
+    bottom:180px;
+}
+.about .items .seconed-item .circ-img::after{
+    content:' ';
+    position:absolute;
+    width:2px;
+    height:300px;
+    background-color: #e9ecef;
+    bottom:-300px;
+    left:90px;
+    top:180px;
+}
+.about .items .third-item {
+    position:relative;
+    z-index: 2;
+}
+.about .items .third-item .circ-img::after{
+    content:' ';
+    position:absolute;
+    width:2px;
+    height:300px;
+    background-color: #e9ecef;
+    z-index: 1;
+    bottom:-300px;
+    left:90px;
+    top:180px;
+}
+.about .items .third-item .circ-img::before{
+    content:' ';
+    position:absolute;
+    width:2px;
+    height:300px;
+    background-color:#e9ecef;
+    top:-300px;
+    left:92px;
+    bottom:180px;
+}
+.about .items .fourth-item {
+    position:relative;
+}
+.about .items .fourth-item .circ-img::before{
+    content:' ';
+    position:absolute;
+    width:2px;
+    height:300px;
+    background-color: #e9ecef;
+    top:-300px;
+    left:89px;
+    bottom:180px;
+}
+.about .items .fourth-item .circ-img::after{
+    content:' ';
+    position:absolute;
+    width:2px;
+    height:300px;
+    background-color: #e9ecef;
+    bottom:-300px;
+    left:90px;
+    top:180px;
+}
+.about .items .fifth-item{
+    position:relative;
+}
+.about .items .fifth-item .circ-img1::before{
+    content:' ';
+    position:absolute;
+    width:2px;
+    height:100px;
+    background-color: #e9ecef;
+    top:-100px;
+    left:89.5px;
+    bottom:180px;
+}
+        /* SECTION TEAM MEMBER */
+.teams{
+    background-color: rgba(248,249,250,1);
+     overflow: hidden;
+}
+.teams h2{
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 70px;
+    font-size:50px;
+    font-weight: 700px;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.teams .team-member .items {
+    overflow: hidden;    
+    margin-bottom: 50px;      
+}
+.teams .team-member  .items .members{
+     float:left;
+     width:30.33%;
+     margin-right: 10px;
+     margin-left: 25px;
+}
+.teams .team-member .lorem{
+    line-height: 1.5em;
+    width:70%;
+    margin: auto;
+    margin-left: 230px;
+    color:#6c757d;
+    font-size:20px;
+    margin-bottom: 110px;     
+}
+.teams .team-member  .sp{
+    margin-left: 160px;
+}
+.team-member .items .members .img-member{
+    width:100%;
+    text-align: center;
+}
+.team-member  .items .members .but-member{
+    text-align: center;
+}
+.team-member .items .members .img-member img{
+     width: 250px;
+     height: 250px;
+     border:0.5rem solid ;
+     border-color: rgba(0, 0, 0, 0.1);
+     border-radius: 50%;
+}
+.items .members .but-member{
+     overflow: hidden;
+}
+.items .members .but-member h4{
+     font-size: 30px;
+     padding-top: 15px;
+}
+.items .members .but-member p{
+     font-size: 20px;
+     color:#6c757d;
+     padding-bottom: 15px;
+}
+.items .members .but-member ul{
+     margin-left: 90px;
+}
+.members .but-member ul  li a{
+     margin-right: 7px;
+     margin: auto;
+}
+.members .but-member ul  li{
+    float: left;
+    width:20%;
+}
+.members .but-member ul li a  i{
+    margin-right: 5px;
+    width:45px;
+    height:45px;
+    color: #fff;
+    font-size: 22px;
+    background-color: #212529;
+    border-color: #212529;
+    border-radius: 50%;
+    line-height: 45px;
+    margin:auto;
+}
+        /* START CLIENTS SECTION */
+
+.clients{
+     overflow: hidden;
+}
+.clients .items{
+     overflow: hidden;
+     margin-top: 15px;
+}
+.clients .items  img{
+      width:100%;
+}
+.clients .items .item{
+    float:left;
+    width:25%;
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    padding-right: 20px;
+}
+.clients .items  .item .microsoft{
+     width:50%;
+}
+.clients .items  .item .google{
+     margin-top: 7px;
+     width:50%;
+     position: absolute;
+     margin-left: 80px;
+}
+.clients .items  .item .facebook{
+     margin-top: 16px;
+     width:50%;
+     position: absolute;
+     margin-left: 50px;
+}
+.clients .items  .item .ibm{
+     margin-top: 10px;
+     width:50%;
+     margin-left: 30px;
+}
+        /* START CONTACT US SECTION */
+.contact-us{
+     overflow: hidden;
+     background-image: url('../image/map-image.png');
+     background-size: cover;
+     height: 100vh;
+     width: 100%;
+     background-color: #212529;
+}
+.contact-us h2{
+    font-size: 50px;
+    margin-top:110px;
+    color:white;
+    text-align: center;
+    font-weight: 400px;
+}
+.contact-us .inputs{
+    overflow: hidden;
+}
+.contact-us .inputs .left-side{
+     float:left;
+     width:50%;
+}
+.contact-us .inputs .left-side input::placeholder {
+    font-style: italic;
+    opacity:0.5;
+    text-align: left;
+  }
+  .contact-us .inputs .right-side .area::placeholder{
+    font:italic;
+    opacity:0.5;
+  }
+.contact-us .inputs .left-side .txt{
+    display:block;
+    font-size: 23px;
+    width:90%;
+    padding:20px;
+    margin-bottom: 30px;
+    border-color:#dc3545;
+    border-radius: 10px;
+    text-align: start;
+}
+.contact-us .inputs .right-side{
+    float:right;
+    width:50%;
+}
+.contact-us .inputs .right-side .area{ 
+    border-color: #dc3545;
+    border-radius: 10px;
+    font-size: 23px;
+}
+.contact-us .message-btn{
+    margin-bottom: 40px;
+    text-align: center;          
+}
+.contact-us .message-btn button{
+    padding:20px 40px;
+    font-size: 25px;
+    color:white;
+    background-color:#ffc800;
+    opacity:0.5;
+    border-color: #ffc800;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+        /* START FOOTER SECTION */
+
+.footer{
+    overflow: hidden;
+}
+.footer .left-item{
+    float:left;
+    width:30%;
+    padding-bottom: 20px;
+}
+.footer .left-item p{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:#212529;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.footer .content-footer{
+    float:right;
+    width:70%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer .content-footer .icons{
+    float:left;
+    width:30%;
+    margin-left: 150px;
+}
+.footer .content-footer .right-item{
+    float:right;
+    width:40%;
+    margin-top: 5px;
+}
+.footer .content-footer{
+    overflow: hidden;
+}
+.footer .content-footer .icons ul {
+    display: inline-block;
+}
+.footer .content-footer .icons ul li {
+    margin-right: 40px;
+ }
+.footer .content-footer .icons ul li i{
+    font-size: 20px;
+    color:white;
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    background-color: #212529;
+}
+.footer .content-footer .right-item ul li{
+    display:inline-block;
+    margin-left: 65px;
+}
+.footer .content-footer .right-item ul li a{
+    color:#212529;
+    font-size: 16px;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+                             /* MOBILE SIMULATOR */
+
+ @media(min-width:320px) and (max-width:412px){
+
+    .navbar-lists li a{
+        font-size: 16px;
+        margin-right: 2px;
+    }
+    .header .content-navbar{
+        margin-left: 20px;
+    }
+}
+@media (max-width:576px){
+    h3{
+        margin-top: 5px;
+        font-size: 16px;
+        margin-bottom: 35px;
+    }
+    .header .logo-navbar{
+        float:none;
+        width:100%;
+        margin-top: 10px;
+        margin-left: 70px;
+    }
+    .logo-navbar img{
+        width:40%;
+        margin-left: 15px;
+    }
+    .header .content-navbar{
+        float:none;
+        width:100%;
+    }
+    .content-navbar .navbar-lists {
+        margin-left: 10px;
+    }
+    .content-navbar .navbar-lists li{
+        display:inline-block;
+    }
+    .navbar-lists li a{
+        font-size: 12px;
+        margin-right: 5px;
+    }
+    .header .header-content h1{
+        font-size: 20px;
+        margin-bottom: 25px;
+        padding-bottom: 10px;
+        line-height: 1.5rem;
+    }
+    .header .header-content h2{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .header .header-content .btn-header{
+        padding:15px 30px;
+        font-size:18px;
+        border-radius: 6px;
+    }
+    .header{
+        background-position:-200px;
+        height:100vh;
+    }
+    .services .h2-serv{
+        font-size: 40px;
+        padding-bottom: 15px;
+    }
+    .services .item {
+        float:none;
+        width:100%;
+        padding-top: 2px;
+        padding-right: 10px;
+        margin-left: 20px;
+        box-sizing: border-box;
+        padding-right: 30px;
+    }
+    .services .item i{
+        width:90px;
+        height: 90px;
+        font-size: 50px;
+        line-height: 90px;
+        margin-bottom: 15px;
+        margin-left: 85px;
+        text-align: center;
+    }
+    .services .item h4{
+       text-align: center;
+       font-weight: bold;
+       font-size: 30px;
+       font-weight: 700;
+       line-height: 1.2;
+    }
+    .services .item p{
+        margin-top:8px;
+        width:100%;
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .services .item h4{
+        font-size: 23px;
+    }
+    .portfolio .h2-h3port .h2-port{
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
+    .portfolio .portfolio-content .items-port{
+        float:none;
+        width:100%;
+        margin-bottom: 45px;
+        text-align: center;
+   }
+   .portfolio .portfolio-content .items-port .image img {
+    width: 90%;
+   }
+   .about .top h2{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+   }
+                  /* 1 ================== */
+   .about  .items .first-item .content{
+       float:none;
+       width:100%;
+   }
+   .about  .items .first-item .content .he1{
+       margin-left: auto;
+       margin-right: 160px;
+       font-weight: 700;
+       font-size: 25px;
+       width:50%;
+       margin-bottom: 20px;
+       }
+   .about  .items .first-item .content .he2{
+       margin-left: auto;
+       width:100%;
+       margin-right: 50px;
+       font-weight: bold;
+       font-size: 23px;
+       line-height: 1.2rem;
+       margin-bottom: 5px;
+    }
+   .about  .items .first-item .content p{
+      margin-left: auto;
+      text-align: left;
+      margin-right: 110px;
+      width:100%;
+      text-align: center;
+      font-size: 18px;
+      margin-top:10px;
+      margin-bottom: 5px;
+      text-align: left;
+   }
+   .about .items .first-item .circ-img img{
+       margin: center;
+       width:110px;
+       height:110px;
+   }
+   .about .items .first-item .circ-img{
+       float:none;
+       width:100%;
+       margin:auto;
+       width:122px;
+       height:122px;
+   }
+             /* 2 =================== */
+    .about .items .seconed-item .content{
+        float:none;
+        width:100%;
+        padding-left: 0px;
+    }
+    .about .items .seconed-item .circ-img{
+        float:none;
+        width:100%;
+        margin:auto;
+        width:122px;
+        height:122px;
+    }
+    .about .items .seconed-item .circ-img img{
+        margin: center;
+        width:110px;
+        height:110px;
+    }
+    .about .items .seconed-item{
+        overflow: hidden;
+        margin:auto;
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+    .about .items .seconed-item .content .he1{
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 1.2rem;
+        width:50%;
+        margin-bottom: 20px;
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+    .about .items .fourth-item .content .he2{
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 1.2rem;
+        margin-bottom: 5px;
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+    .about .items .seconed-item .content p{
+        margin-top:15px;
+        width:100%;
+        font-size: 18px;
+    }
+                   /* 3 ==================== */
+   .about  .items .third-item .content{
+       float:none;
+       width:100%;
+   }
+   .about .items .third-item{
+       overflow: hidden;
+       margin:auto;
+       padding-bottom: 25px;
+       padding-top: 25px;
+   }
+   .about  .items .third-item .content .he1{
+       margin-left: auto;
+       margin-right: 150px;
+       font-weight: 700;
+       font-size: 25px;
+       width:70%;
+       margin-bottom: 20px;
+       }
+   .about  .items .third-item .content .he2{
+       margin-left: auto;
+       width:100%;
+       margin-right: 50px;
+       font-weight: bold;
+       font-size: 23px;
+       line-height: 1.2rem;
+       margin-bottom: 5px;
+    }
+   .about  .items .third-item .content p{
+      margin-left: auto;
+      text-align: left;
+      margin-right: 110px;
+      width:100%;
+      text-align: center;
+      font-size: 18px;
+      margin-top:10px;
+      margin-bottom: 5px;
+      text-align: left;
+   }
+   .about .items .third-item .circ-img img{
+       margin: center;
+       width:110px;
+       height:110px;
+   }
+   .about .items .third-item .circ-img{
+       float:none;
+       width:100%;
+       margin:auto;
+       width:122px;
+       height:122px;
+   }
+                  /* 4 ==================== */
+
+    .about .items .fourth-item .content{
+        float:none;
+        width:100%;
+        padding-left: 0px;
+    }
+    .about .items .fourth-item{
+        overflow: hidden;
+        margin:auto;
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+    .about .items .fourth-item .circ-img{
+        float:none;
+        width:100%;
+        margin:auto;
+        width:122px;
+        height:122px;
+    }
+    .about .items .fourth-item .circ-img img{
+        margin: center;
+        width:110px;
+        height:110px;
+    }
+    .about .items .fourth-item{
+        overflow: hidden;
+        margin:auto;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .about .items .fourth-item .content .he1{
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 1.2rem;
+        width:50%;
+        margin-bottom: 20px;
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+    .about .items .fourth-item .content .he2{
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 1.2rem;
+        margin-bottom: 5px;
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+    .about .items .fourth-item .content p{
+        margin-top:15px;
+        width:100%;
+        font-size: 18px;
+    }
+                 /* 5 ===================== */
+    .about .items .fifth-item .circ-img1{
+        margin:auto;
+        width:122px;
+        height:122px;
+        margin-top: 40px;
+        margin-bottom: 90px;
+    }
+    .about .items .fifth-item .circ-img2{
+        margin: auto;
+        margin-top: 6px;
+        margin-left: 6px;
+        width:110px;
+        height:110px;
+    }
+    .about .items .fifth-item .circ-img2 h4{
+        font-size: 16px;
+        margin-top: 25px;
+        margin-left: 30px;
+    }
+                /* DELETE LINE ============ */
+    .about .items .first-item .circ-img::after{
+        content:' ';
+        width:0px;
+        height:0px;
+    }
+    .about .items .seconed-item .circ-img::before{
+        content:' ';
+        width:0px;
+        height:0px;
+    }
+    .about .items .seconed-item .circ-img::after{
+        content:' ';
+        width:0px;
+        height:0px;
+    }
+    .about .items .third-item .circ-img::after{
+        content:' ';
+        width:0px;
+        height:0px;
+    }
+    .about .items .third-item .circ-img::before{
+        content:' ';
+        width:0px;
+        height:0px;
+    }
+    .about .items .fourth-item .circ-img::before{
+        content:' ';
+        width:0px;
+        height:0px;
+    }
+    .about .items .fourth-item .circ-img::after{
+        content:' ';
+        width:0px;
+        height:280px;
+        left:60.5px;
+        top:220px;
+        bottom:-280px;
+    }
+    .about .items .fifth-item .circ-img1::before{
+        content:' ';
+        width:2px;
+        height:100px;
+        top:-100px;
+        left:60.5px;
+        bottom:180px;
+    }
+    .teams h2{
+        font-size: 30px;
+    }
+    .teams .team-member  .items .members{
+        float:none;
+        width:100%;
+        margin:auto;
+   }
+   .items .members .but-member ul li{
+    margin-bottom: 15px;
+    width:25%;
+   }
+   .members .but-member ul li a  i{
+    margin-right: 0px;
+   }
+   .items .members .but-member ul{
+    margin-left: 55px;
+   }
+   .teams .team-member .lorem{
+    line-height: 1.3rem;
+    width:100%;
+    margin: auto;
+    margin-left: 20px;
+    font-size:18px;
+    margin-bottom: 110px;     
+   }
+   .teams .team-member  .sp{
+    margin-left: 0px;
+   }
+   .teams .team-member .items{
+    margin-bottom: 15px;
+   }
+   .clients .items  .item .google{
+        margin-top: 2px;
+        margin-left: 30px;
+   }
+   .clients .items  .item .facebook{
+        margin-top: 5px;
+        margin-left: 35px;
+   }
+   .clients .items  .item .ibm{
+        margin-top: 5px;
+        margin-left: 40px;
+   }
+   .contact-us h2{
+    font-size: 40px;
+    margin-top: 20px;
+   }
+   .contact-us .inputs .left-side{
+        float:none;
+        width:100%;
+        margin-top: 0px;
+   }
+   .contact-us .inputs .left-side .txt{
+       font-size: 16px;
+       padding:10px;
+       width:100%;
+       text-align: start;
+       margin-top: 5px;
+   }
+   .contact-us .inputs .right-side{
+       float:none;
+       width:60%;
+   }
+   .contact-us .inputs .right-side .area{ 
+    font-size: 16px;
+   }
+   .contact-us .inputs{
+    margin-bottom: 10px;
+   }
+   .contact-us .message-btn button{
+    font-size: 18px;
+    padding: 10px 20px;
+   }
+   .footer .left-item{
+    float:none;
+    width:100%;
+   }
+   .footer .left-item p{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+   }
+   .footer .content-footer{
+    float:none;
+    width:100%;
+    padding-top: 1px;
+    padding-bottom: 20px;
+   }
+   .footer .content-footer .icons{
+    float:none;
+    width:70%;
+    margin:auto;
+    margin-left: 60px;
+    margin-bottom: 15px;
+   }
+   .footer .content-footer .right-item{
+    float:none;
+    width:100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+   }
+   .footer .content-footer .icons ul{
+    margin-right: 10px;
+   }
+   .footer .content-footer .icons ul li{
+    margin-right: 10px;
+   }
+   .footer .content-footer .right-item ul li{
+    display: inline-block;
+    margin-left: 30px;
+   }
+   .footer .content-footer .right-item ul li a{
+    font-size: 18px;
+   }
+
+}
+
+@media (min-width:577px) and (max-width:768px){
+    .header .logo-navbar{
+        float:left;
+        width:20%;
+        margin-top: 35px;
+        margin-bottom: 30px;
+    }
+    .logo-navbar img{
+        width:100%;
+    }
+    .header .content-navbar{
+        float:right;
+        width:80%;
+        margin-top: 30px;
+    }
+    .content-navbar .navbar-lists {
+        margin-left: 30px;
+        margin-top: 0px;
+    }
+    .content-navbar .navbar-lists li{
+        display:inline-block;
+    }
+    .navbar-lists li a{
+        margin-right: 10px;
+    }
+    .header .header-content h2{
+        font-size: 50px;
+    }
+    .services .item {
+        float:left;
+        width:33.33%;
+        padding-top: 30px;
+        box-sizing: border-box;
+        padding-right: 40px;
+    }
+    .services .item i{
+        width:90px;
+        height: 90px;
+        font-size: 40px;
+        border-radius: 50%;
+        line-height: 90px;
+        margin-left: 40px;
+    }
+    .services .item h4{
+       font-size: 18px;
+    }
+    .services .item p{
+        font-size: 20px;
+        line-height: 1.2rem;
+    }
+    .portfolio .portfolio-content .items-port{
+         float:left;
+         width:45%;
+         margin-bottom: 40px;
+    }
+    .portfolio-content .items-port .but-img h3{
+        margin-bottom: 10px;
+    }
+    .portfolio .items-port .overlay{
+        font-size: 50px;
+        line-height:140px;
+    }
+              /* 1 ================== */
+    .about  .items .first-item .content{
+        float:none;
+        width:100%;
+    }
+    .about  .items .first-item .content .he1{
+        margin-left: auto;
+        margin-right: 320px;
+        font-weight: 700;
+        font-size: 25px;
+        width:50%;
+        margin-bottom: 20px;
+        }
+    .about  .items .first-item .content .he2{
+        margin-left: auto;
+        width:100%;
+        margin-right: 50px;
+        font-weight: bold;
+        font-size: 23px;
+        line-height: 1.2rem;
+        margin-bottom: 5px;
+     }
+    .about  .items .first-item .content p{
+       margin-left: auto;
+       text-align: left;
+       margin-right: 110px;
+       width:100%;
+       text-align: center;
+       font-size: 18px;
+       margin-top:10px;
+       margin-bottom: 10px;
+       text-align: left;
+    }
+    .about .items .first-item .circ-img img{
+        margin: center;
+        width:110px;
+        height:110px;
+    }
+    .about .items .first-item .circ-img{
+        float:none;
+        width:100%;
+        margin:auto;
+        width:122px;
+        height:122px;
+    }
+              /* 2 =================== */
+     .about .items .seconed-item .content{
+         float:none;
+         width:100%;
+         padding-left: 0px;
+     }
+     .about .items .seconed-item .circ-img{
+         float:none;
+         width:100%;
+         margin:auto;
+         width:122px;
+         height:122px;
+         margin-bottom: 10px;
+     }
+     .about .items .seconed-item .circ-img img{
+         margin: center;
+         width:110px;
+         height:110px;
+     }
+     .about .items .seconed-item{
+         overflow: hidden;
+         margin:auto;
+         padding-bottom: 25px;
+         padding-top: 25px;
+     }
+     .about .items .seconed-item .content .he1{
+         font-weight: 700;
+         font-size: 25px;
+         line-height: 1.2rem;
+         width:50%;
+         margin-bottom: 20px;
+         }
+     .about .items .fourth-item .content .he2{
+         font-weight: bold;
+         font-size: 25px;
+         line-height: 1.2rem;
+         margin-bottom: 5px;
+         }
+     .about .items .seconed-item .content p{
+         margin-top:15px;
+         width:100%;
+         font-size: 18px;
+         margin-bottom: 10px;
+     }
+                    /* 3 ==================== */
+    .about  .items .third-item .content{
+        float:none;
+        width:100%;
+    }
+    .about .items .third-item{
+        overflow: hidden;
+        margin:auto;
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+    .about  .items .third-item .content .he1{
+        margin-left: auto;
+        margin-right: 200px;
+        font-weight: 700;
+        font-size: 25px;
+        width:70%;
+        margin-bottom: 20px;
+        }
+    .about  .items .third-item .content .he2{
+        margin-left: auto;
+        width:100%;
+        margin-right: 50px;
+        font-weight: bold;
+        font-size: 23px;
+        line-height: 1.2rem;
+        margin-bottom: 5px;
+     }
+    .about  .items .third-item .content p{
+       margin-left: auto;
+       text-align: left;
+       margin-right: 110px;
+       width:100%;
+       text-align: center;
+       font-size: 18px;
+       margin-top:10px;
+       margin-bottom: 10px;
+       text-align: left;
+    }
+    .about .items .third-item .circ-img img{
+        margin: center;
+        width:110px;
+        height:110px;
+    }
+    .about .items .third-item .circ-img{
+        float:none;
+        width:100%;
+        margin:auto;
+        width:122px;
+        height:122px;
+        margin-bottom: 10px;
+    }
+                   /* 4 ==================== */
+ 
+     .about .items .fourth-item .content{
+         float:none;
+         width:100%;
+         padding-left: 0px;
+     }
+     .about .items .fourth-item{
+         overflow: hidden;
+         margin:auto;
+         padding-bottom: 25px;
+         padding-top: 25px;
+     }
+     .about .items .fourth-item .circ-img{
+         float:none;
+         width:100%;
+         margin:auto;
+         width:122px;
+         height:122px;
+         margin-bottom: 10px;
+     }
+     .about .items .fourth-item .circ-img img{
+         margin: center;
+         width:110px;
+         height:110px;
+     }
+     .about .items .fourth-item{
+         overflow: hidden;
+         margin:auto;
+         padding-bottom: 50px;
+         padding-top: 50px;
+     }
+     .about .items .fourth-item .content .he1{
+         font-weight: 700;
+         font-size: 25px;
+         line-height: 1.2rem;
+         width:50%;
+         margin-bottom: 20px;
+        }
+     .about .items .fourth-item .content .he2{
+         font-weight: bold;
+         font-size: 25px;
+         line-height: 1.2rem;
+         margin-bottom: 5px;
+        }
+     .about .items .fourth-item .content p{
+         margin-top:15px;
+         width:100%;
+         font-size: 18px;
+         margin-bottom: 10px;
+     }
+                  /* 5 ===================== */
+     .about .items .fifth-item .circ-img1{
+         margin:auto;
+         width:122px;
+         height:122px;
+         margin-top: 40px;
+         margin-bottom: 90px;
+     }
+     .about .items .fifth-item .circ-img2{
+         margin: auto;
+         margin-top: 6px;
+         margin-left: 6px;
+         width:110px;
+         height:110px;
+     }
+     .about .items .fifth-item .circ-img2 h4{
+         font-size: 16px;
+         margin-top: 25px;
+         margin-left: 30px;
+     }
+                /* DELETE LINE ============ */
+    .about .items .first-item .circ-img::after{
+        content:' ';
+        width:0px;
+        height:0px;
+    }
+    .about .items .seconed-item .circ-img::before{
+        content:' ';
+        width:0px;
+        height:0px;
+    }
+    .about .items .seconed-item .circ-img::after{
+        content:' ';
+        width:0px;
+        height:0px;
+    }
+    .about .items .third-item .circ-img::after{
+        content:' ';
+        width:0px;
+        height:0px;
+    }
+    .about .items .third-item .circ-img::before{
+        content:' ';
+        width:0px;
+        height:0px;
+    }
+    .about .items .fourth-item .circ-img::before{
+        content:' ';
+        width:0px;
+        height:0px;
+    }
+    .about .items .fourth-item .circ-img::after{
+        content:' ';
+        width:0px;
+        height:280px;
+        left:60.5px;
+        top:220px;
+        bottom:-280px;
+    }
+    .about .items .fifth-item .circ-img1::before{
+        content:' ';
+        width:2px;
+        height:100px;
+        top:-100px;
+        left:60.5px;
+        bottom:180px;
+    }
+    .teams .team-member  .items .members{
+         float:left;
+         width:30.33%;
+         margin-right: 0px;
+         margin-left: 15px;
+    }
+    .teams .team-member .lorem{
+        width:100%;
+        margin-left: 50px;
+        margin-bottom: 80px;     
+    }
+    .teams .team-member  .sp{
+        margin-left: 0px;
+    }
+    .items .members .but-member ul{
+         margin-left: 15px;
+    }
+    .members .but-member ul  li a{
+         margin-right: 7px;
+         margin: auto;
+    }
+    .members .but-member ul  li{
+        float: left;
+        width:30%;
+    }
+    .members .but-member ul li a  i{
+        margin-right: 5px;
+        width:45px;
+        height:45px;
+        color: #fff;
+        font-size: 22px;
+        background-color: #212529;
+        border-color: #212529;
+        border-radius: 50%;
+        line-height: 45px;
+        margin:auto;
+    }
+    .team-member .items .members .img-member img{
+         width: 150px;
+         height: 150px;
+    }
+    .items .members .but-member h4{
+         font-size: 20px;
+    }
+    .clients .items  .item .google{
+         margin-top: 0px;
+         margin-left: 40px;
+    }
+    .clients .items  .item .facebook{
+         margin-top: 2px;
+         margin-left: 40px;
+    }
+    .clients .items  .item .ibm{
+         margin-top: 2px;
+         margin-left: 40px;
+    }
+    .contact-us .inputs .left-side{
+         float:left;
+         width:60%;
+    }
+    .contact-us .inputs .left-side .txt{
+        display:block;
+        font-size: 23px;
+        padding:20px;
+        width:80%;
+        margin-bottom: 30px;
+        border-color:#dc3545;
+        border-radius: 10px;
+        text-align: start;
+    }
+    .contact-us .inputs .right-side{
+        float:right;
+        width:40%;
+    }
+    .contact-us .inputs .right-side .area{ 
+        border-color: #dc3545;
+        border-radius: 10px;
+        font-size: 23px;
+        width:100%;
+    }
+    .contact-us .inputs{
+        margin-top: 100px;
+    }
+    .footer .left-item{
+        float:left;
+        width:30%;
+        padding-bottom: 20px;
+    }
+    .footer .left-item p{
+        font-size: 14px;
+        width:100%;
+    }
+    .footer .content-footer{
+        float:right;
+        width:70%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .footer .content-footer .icons{
+        float:left;
+        width:30%;
+        margin-left: 30px;
+    }
+    .footer .content-footer .right-item{
+        float:right;
+        width:50%;
+        margin-top: 5px;
+    }
+    .footer .content-footer{
+        overflow: hidden;
+    }
+    .footer .content-footer .icons ul {
+        display: inline-block;
+    }
+    .footer .content-footer .icons ul li {
+        margin-right: 0px;
+     }
+    .footer .content-footer .icons ul li i{
+        font-size: 20px;
+        color:white;
+        width:40px;
+        height: 40px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 40px;
+        background-color: #212529;
+    }
+    .footer .content-footer .right-item ul li{
+        display:inline-block;
+        margin-left: 0px;
+    }
+    .footer .content-footer .right-item ul li a{
+        color:#212529;
+        font-size: 16px;
+        margin-right: 5px;
+    }
+}
+@media (min-width:769px) and (max-width:992px){
+    .header .logo-navbar{
+        float:left;
+        width:20%;
+        margin-top: 35px;
+        margin-bottom: 30px;
+    }
+    .logo-navbar img{
+        width:100%;
+    }
+    .header .content-navbar{
+        float:right;
+        width:80%;
+        margin-top: 30px;
+    }
+    .content-navbar .navbar-lists {
+        margin-left: 55px;
+        margin-top: 0px;
+    }
+    .content-navbar .navbar-lists li{
+        display:inline-block;
+    }
+    .navbar-lists li a{
+        margin-right: 10px;
+    }
+    .header .header-content h1{
+
+        font-size: 40px;
+    }
+    .header .header-content h2{
+        font-size: 50px;
+    }
+    .header .header-content .btn-header{
+        font-size: 35px;
+    }
+    .header .header-content{
+        margin-top:300px;
+    }
+    .services .item {
+        float:left;
+        width:33.33%;
+        padding-top: 30px;
+        box-sizing: border-box;
+        padding-right: 40px;
+    }
+    .services .item i{
+        width:90px;
+        height: 90px;
+        font-size: 40px;
+        border-radius: 50%;
+        line-height: 90px;
+        margin-left: 40px;
+    }
+    .services .item h4{
+       font-size: 18px;
+    }
+    .services .item p{
+        font-size: 20px;
+        line-height: 1.2rem;
+    }
+    .portfolio .portfolio-content .items-port{
+         float:left;
+         width:27.67%;
+         margin-bottom: 40px;
+         margin-left: 10px;
+    }
+    .portfolio-content .items-port .but-img h3{
+        margin-bottom: 10px;
+    }
+    .portfolio .items-port .overlay{
+        font-size: 50px;
+        line-height:140px;
+    }
+              /* 1 ================== */
+    .about  .items .first-item .content{
+        float:none;
+        width:100%;
+    }
+    .about  .items .first-item .content .he1{
+        margin-left: auto;
+        margin-right: 320px;
+        font-weight: 700;
+        font-size: 25px;
+        width:50%;
+        margin-bottom: 20px;
+        }
+    .about  .items .first-item .content .he2{
+        margin-left: auto;
+        width:100%;
+        margin-right: 50px;
+        font-weight: bold;
+        font-size: 23px;
+        line-height: 1.2rem;
+        margin-bottom: 5px;
+     }
+    .about  .items .first-item .content p{
+       margin-left: auto;
+       text-align: left;
+       margin-right: 110px;
+       width:100%;
+       text-align: center;
+       font-size: 22px;
+       margin-top:10px;
+       margin-bottom: 10px;
+       text-align: left;
+    }
+    .about .items .first-item .circ-img img{
+        margin: center;
+        width:120px;
+        height:120px;
+        margin-bottom: 0px;
+    }
+    .about .items .first-item .circ-img{
+        float:none;
+        width:100%;
+        margin:auto;
+        width:132px;
+        height:132px;
+    }
+              /* 2 =================== */
+     .about .items .seconed-item .content{
+         float:none;
+         width:100%;
+         padding-left: 0px;
+     }
+     .about .items .seconed-item .circ-img{
+         float:none;
+         width:100%;
+         margin:auto;
+         width:132px;
+         height:132px;
+         margin-bottom: 0px;
+     }
+     .about .items .seconed-item .circ-img img{
+         margin: center;
+         width:120px;
+         height:120px;
+     }
+     .about .items .seconed-item{
+         overflow: hidden;
+         margin:auto;
+         padding-bottom: 25px;
+         padding-top: 25px;
+     }
+     .about .items .seconed-item .content .he1{
+         font-weight: 700;
+         font-size: 25px;
+         line-height: 1.2rem;
+         width:50%;
+         margin-bottom: 20px;
+         }
+     .about .items .fourth-item .content .he2{
+         font-weight: bold;
+         font-size: 25px;
+         line-height: 1.2rem;
+         margin-bottom: 5px;
+         }
+     .about .items .seconed-item .content p{
+         margin-top:15px;
+         width:100%;
+         font-size: 22px;
+         margin-bottom: 10px;
+     }
+                    /* 3 ==================== */
+    .about  .items .third-item .content{
+        float:none;
+        width:100%;
+    }
+    .about .items .third-item{
+        overflow: hidden;
+        margin:auto;
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+    .about  .items .third-item .content .he1{
+        margin-left: auto;
+        margin-right: 200px;
+        font-weight: 700;
+        font-size: 25px;
+        width:70%;
+        margin-bottom: 20px;
+        }
+    .about  .items .third-item .content .he2{
+        margin-left: auto;
+        width:100%;
+        margin-right: 50px;
+        font-weight: bold;
+        font-size: 23px;
+        line-height: 1.2rem;
+        margin-bottom: 5px;
+     }
+    .about  .items .third-item .content p{
+       margin-left: auto;
+       text-align: left;
+       margin-right: 110px;
+       width:100%;
+       text-align: center;
+       font-size: 22px;
+       margin-top:10px;
+       margin-bottom: 10px;
+       text-align: left;
+    }
+    .about .items .third-item .circ-img img{
+        margin: center;
+        width:120px;
+        height:120px;
+    }
+    .about .items .third-item .circ-img{
+        float:none;
+        width:100%;
+        margin:auto;
+        width:132px;
+        height:132px;
+        margin-bottom: 0px;
+    }
+                   /* 4 ==================== */
+ 
+     .about .items .fourth-item .content{
+         float:none;
+         width:100%;
+         padding-left: 0px;
+     }
+     .about .items .fourth-item{
+         overflow: hidden;
+         margin:auto;
+         padding-bottom: 25px;
+         padding-top: 25px;
+     }
+     .about .items .fourth-item .circ-img{
+         float:none;
+         width:100%;
+         margin:auto;
+         width:132px;
+         height:132px;
+         margin-bottom: 0px;
+     }
+     .about .items .fourth-item .circ-img img{
+         margin: center;
+         width:120px;
+         height:120px;
+     }
+     .about .items .fourth-item{
+         overflow: hidden;
+         margin:auto;
+         padding-bottom: 50px;
+         padding-top: 50px;
+     }
+     .about .items .fourth-item .content .he1{
+         font-weight: 700;
+         font-size: 25px;
+         line-height: 1.2rem;
+         width:50%;
+         margin-bottom: 20px;
+        }
+     .about .items .fourth-item .content .he2{
+         font-weight: bold;
+         font-size: 25px;
+         line-height: 1.2rem;
+         margin-bottom: 5px;
+        }
+     .about .items .fourth-item .content p{
+         margin-top:15px;
+         width:100%;
+         font-size: 22px;
+         margin-bottom: 10px;
+     }
+                  /* 5 ===================== */
+     .about .items .fifth-item .circ-img1{
+         margin:auto;
+         width:132px;
+         height:132px;
+         margin-top: 40px;
+         margin-bottom: 90px;
+     }
+     .about .items .fifth-item .circ-img2{
+         margin: auto;
+         margin-top: 6px;
+         margin-left: 6px;
+         width:120px;
+         height:120px;
+     }
+     .about .items .fifth-item .circ-img2 h4{
+         font-size: 19px;
+         margin-top: 25px;
+         margin-left: 30px;
+     }
+                /* DELETE LINE ============ */
+    .about .items .first-item .circ-img::after{
+        content:' ';
+        width:0px;
+        height:0px;
+    }
+    .about .items .seconed-item .circ-img::before{
+        content:' ';
+        width:0px;
+        height:0px;
+    }
+    .about .items .seconed-item .circ-img::after{
+        content:' ';
+        width:0px;
+        height:0px;
+    }
+    .about .items .third-item .circ-img::after{
+        content:' ';
+        width:0px;
+        height:0px;
+    }
+    .about .items .third-item .circ-img::before{
+        content:' ';
+        width:0px;
+        height:0px;
+    }
+    .about .items .fourth-item .circ-img::before{
+        content:' ';
+        width:0px;
+        height:0px;
+    }
+    .about .items .fourth-item .circ-img::after{
+        content:' ';
+        width:0px;
+        height:280px;
+        left:60.5px;
+        top:220px;
+        bottom:-280px;
+    }
+    .about .items .fifth-item .circ-img1::before{
+        content:' ';
+        width:2px;
+        height:100px;
+        top:-100px;
+        left:60.5px;
+        bottom:180px;
+    }
+    .teams .team-member  .items .members{
+         float:left;
+         width:30.33%;
+         margin-right: 0px;
+         margin-left: 15px;
+    }
+    .teams .team-member .lorem{
+        width:100%;
+        margin-left: 50px;
+        margin-bottom: 80px;     
+    }
+    .teams .team-member  .sp{
+        margin-left: 0px;
+    }
+    .items .members .but-member ul{
+         margin-left: 30px;
+    }
+    .members .but-member ul  li a{
+         margin-right: 7px;
+         margin: auto;
+    }
+    .members .but-member ul  li{
+        float: left;
+        width:30%;
+    }
+    .members .but-member ul li a  i{
+        margin-right: 5px;
+        width:45px;
+        height:45px;
+        color: #fff;
+        font-size: 22px;
+        background-color: #212529;
+        border-color: #212529;
+        border-radius: 50%;
+        line-height: 45px;
+        margin:auto;
+    }
+    .team-member .items .members .img-member img{
+         width: 150px;
+         height: 150px;
+    }
+    .items .members .but-member h4{
+         font-size: 20px;
+    }
+    .clients .items  .item .google{
+         margin-top: 0px;
+         margin-left: 40px;
+    }
+    .clients .items  .item .facebook{
+         margin-top: 2px;
+         margin-left: 40px;
+    }
+    .clients .items  .item .ibm{
+         margin-top: 2px;
+         margin-left: 40px;
+    }
+    .contact-us .inputs .left-side{
+         float:left;
+         width:60%;
+    }
+    .contact-us .inputs .left-side .txt{
+        display:block;
+        font-size: 23px;
+        padding:20px;
+        width:85%;
+        margin-bottom: 30px;
+        border-color:#dc3545;
+        border-radius: 10px;
+        text-align: start;
+    }
+    .contact-us .inputs .right-side{
+        float:right;
+        width:40%;
+    }
+    .contact-us .inputs .right-side .area{ 
+        border-color: #dc3545;
+        border-radius: 10px;
+        font-size: 23px;
+    }
+    .contact-us .inputs{
+        margin-top: 100px;
+    }
+    .footer .left-item{
+        float:left;
+        width:30%;
+        padding-bottom: 20px;
+    }
+    .footer .left-item p{
+        font-size: 14px;
+        width:100%;
+    }
+    .footer .content-footer{
+        float:right;
+        width:70%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .footer .content-footer .icons{
+        float:left;
+        width:33%;
+        margin-left: 30px;
+    }
+    .footer .content-footer .right-item{
+        float:right;
+        width:50%;
+        margin-top: 5px;
+    }
+    .footer .content-footer .icons ul{
+        margin-left: 5px;
+    }
+    .footer .content-footer .icons ul li {
+        margin-right: 0px;
+     }
+    .footer .content-footer .icons ul li i{
+        font-size: 20px;
+        width:40px;
+        height: 40px;
+        border-radius: 50%;
+        line-height: 40px;
+    }
+    .footer .content-footer .right-item ul li{
+        display:inline-block;
+        margin-left: 0px;
+    }
+    .footer .content-footer .right-item ul li a{
+        font-size: 16px;
+        margin-right: 5px;
+    }
+}
+
+@media (min-width: 993px) and (max-width:1300px){
+.header .logo-navbar{
+    float:left;
+    width:20%;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+.logo-navbar img{
+    width:100%;
+}
+.header .content-navbar{
+    float:right;
+    width:80%;
+    margin-top: 30px;
+}
+.content-navbar .navbar-lists {
+    margin-left: 150px;
+    margin-top: 0px;
+}
+.content-navbar .navbar-lists li{
+    display:inline-block;
+}
+.navbar-lists li a{
+    margin-right: 10px;
+}
+.header .header-content h1{
+    font-size: 40px;
+}
+.header .header-content h2{
+    font-size: 60px;
+}
+.header .header-content .btn-header{
+    font-size: 25px;
+}
+.header .header-content{
+    margin-top:150px;
+}
+.services .item {
+    float:left;
+    width:33.33%;
+    padding-top: 30px;
+    box-sizing: border-box;
+    padding-right: 40px;
+}
+.services .item i{
+    width:100px;
+    height: 100px;
+    font-size: 50px;
+    border-radius: 50%;
+    line-height: 100px;
+    margin-left: 90px;
+}
+.services .item h4{
+   font-size: 23px;
+}
+.services .item p{
+    font-size: 20px;
+    line-height: 1.2rem;
+}
+.portfolio .portfolio-content .items-port{
+     float:left;
+     width:27.67%;
+     margin-bottom: 40px;
+     margin-left: 10px;
+}
+.portfolio-content .items-port .but-img h3{
+    margin-bottom: 10px;
+}
+.portfolio .items-port .overlay{
+    font-size: 50px;
+    line-height:140px;
+}
+          /* 1 ================== */
+.about  .items .first-item .content{
+    float:none;
+    width:100%;
+}
+.about  .items .first-item .content .he1{
+    margin-left: auto;
+    margin-right: 450px;
+    font-weight: 700;
+    font-size: 25px;
+    width:50%;
+    margin-bottom: 20px;
+    }
+.about  .items .first-item .content .he2{
+    margin-left: auto;
+    width:100%;
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 1.2rem;
+    margin-bottom: 5px;
+ }
+.about  .items .first-item .content p{
+   margin-left: auto;
+   text-align: left;
+   margin-right: 110px;
+   width:100%;
+   text-align: center;
+   font-size: 22px;
+   margin-top:10px;
+   margin-bottom: 10px;
+   text-align: left;
+}
+.about .items .first-item .circ-img img{
+    margin: center;
+    width:120px;
+    height:120px;
+    margin-bottom: 0px;
+}
+.about .items .first-item .circ-img{
+    float:none;
+    width:100%;
+    margin:auto;
+    width:132px;
+    height:132px;
+}
+          /* 2 =================== */
+ .about .items .seconed-item .content{
+     float:none;
+     width:100%;
+     padding-left: 0px;
+ }
+ .about .items .seconed-item .circ-img{
+     float:none;
+     width:100%;
+     margin:auto;
+     width:132px;
+     height:132px;
+     margin-bottom: 0px;
+ }
+ .about .items .seconed-item .circ-img img{
+     margin: center;
+     width:120px;
+     height:120px;
+ }
+ .about .items .seconed-item{
+     overflow: hidden;
+     margin:auto;
+     padding-bottom: 25px;
+     padding-top: 25px;
+ }
+ .about .items .seconed-item .content .he1{
+     font-weight: 700;
+     font-size: 25px;
+     line-height: 1.2rem;
+     width:50%;
+     margin-bottom: 20px;
+     }
+ .about .items .fourth-item .content .he2{
+     font-weight: bold;
+     font-size: 25px;
+     line-height: 1.2rem;
+     margin-bottom: 5px;
+     }
+ .about .items .seconed-item .content p{
+     margin-top:15px;
+     width:100%;
+     font-size: 22px;
+     margin-bottom: 10px;
+ }
+                /* 3 ==================== */
+.about  .items .third-item .content{
+    float:none;
+    width:100%;
+}
+.about .items .third-item{
+    overflow: hidden;
+    margin:auto;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.about  .items .third-item .content .he1{
+    margin-left: auto;
+    margin-right: 300px;
+    font-weight: 700;
+    font-size: 25px;
+    width:70%;
+    margin-bottom: 20px;
+    }
+.about  .items .third-item .content .he2{
+    margin-left: auto;
+    width:100%;
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 1.2rem;
+    margin-bottom: 5px;
+ }
+.about  .items .third-item .content p{
+   margin-left: auto;
+   text-align: left;
+   margin-right: 110px;
+   width:100%;
+   text-align: center;
+   font-size: 22px;
+   margin-top:10px;
+   margin-bottom: 10px;
+   text-align: left;
+}
+.about .items .third-item .circ-img img{
+    margin: center;
+    width:120px;
+    height:120px;
+}
+.about .items .third-item .circ-img{
+    float:none;
+    width:100%;
+    margin:auto;
+    width:132px;
+    height:132px;
+    margin-bottom: 0px;
+}
+               /* 4 ==================== */
+
+ .about .items .fourth-item .content{
+     float:none;
+     width:100%;
+     padding-left: 0px;
+ }
+ .about .items .fourth-item{
+     overflow: hidden;
+     margin:auto;
+     padding-bottom: 25px;
+     padding-top: 25px;
+ }
+ .about .items .fourth-item .circ-img{
+     float:none;
+     width:100%;
+     margin:auto;
+     width:132px;
+     height:132px;
+     margin-bottom: 0px;
+ }
+ .about .items .fourth-item .circ-img img{
+     margin: center;
+     width:120px;
+     height:120px;
+ }
+ .about .items .fourth-item{
+     overflow: hidden;
+     margin:auto;
+     padding-bottom: 50px;
+     padding-top: 50px;
+ }
+ .about .items .fourth-item .content .he1{
+     font-weight: 700;
+     font-size: 25px;
+     line-height: 1.2rem;
+     width:50%;
+     margin-bottom: 20px;
+    }
+ .about .items .fourth-item .content .he2{
+     font-weight: bold;
+     font-size: 25px;
+     line-height: 1.2rem;
+     margin-bottom: 5px;
+    }
+ .about .items .fourth-item .content p{
+     margin-top:15px;
+     width:100%;
+     font-size: 22px;
+     margin-bottom: 10px;
+ }
+              /* 5 ===================== */
+ .about .items .fifth-item .circ-img1{
+     margin:auto;
+     width:132px;
+     height:132px;
+     margin-top: 40px;
+     margin-bottom: 90px;
+ }
+ .about .items .fifth-item .circ-img2{
+     margin: auto;
+     margin-top: 6px;
+     margin-left: 6px;
+     width:120px;
+     height:120px;
+ }
+ .about .items .fifth-item .circ-img2 h4{
+     font-size: 19px;
+     margin-top: 25px;
+     margin-left: 30px;
+ }
+            /* DELETE LINE ============ */
+.about .items .first-item .circ-img::after{
+    content:' ';
+    width:0px;
+    height:0px;
+}
+.about .items .seconed-item .circ-img::before{
+    content:' ';
+    width:0px;
+    height:0px;
+}
+.about .items .seconed-item .circ-img::after{
+    content:' ';
+    width:0px;
+    height:0px;
+}
+.about .items .third-item .circ-img::after{
+    content:' ';
+    width:0px;
+    height:0px;
+}
+.about .items .third-item .circ-img::before{
+    content:' ';
+    width:0px;
+    height:0px;
+}
+.about .items .fourth-item .circ-img::before{
+    content:' ';
+    width:0px;
+    height:0px;
+}
+.about .items .fourth-item .circ-img::after{
+    content:' ';
+    width:0px;
+    height:280px;
+    left:60.5px;
+    top:220px;
+    bottom:-280px;
+}
+.about .items .fifth-item .circ-img1::before{
+    content:' ';
+    width:2px;
+    height:100px;
+    top:-100px;
+    left:60.5px;
+    bottom:180px;
+}
+.teams .team-member  .items .members{
+     float:left;
+     width:30.33%;
+     margin-right: 0px;
+     margin-left: 15px;
+}
+.teams .team-member .lorem{
+    width:100%;
+    margin-left: 50px;
+    margin-bottom: 80px;     
+}
+.teams .team-member  .sp{
+    margin-left: 0px;
+}
+.items .members .but-member ul{
+     margin-left: 30px;
+}
+.members .but-member ul  li a{
+     margin-right: 7px;
+     margin: auto;
+}
+.members .but-member ul  li{
+    float: left;
+    width:30%;
+}
+.members .but-member ul li a  i{
+    margin-right: 5px;
+    width:45px;
+    height:45px;
+    font-size: 22px;
+}
+.team-member .items .members .img-member img{
+     width: 150px;
+     height: 150px;
+}
+.items .members .but-member h4{
+     font-size: 20px;
+}
+.clients .items  .item .google{
+     margin-top: 0px;
+     margin-left: 40px;
+}
+.clients .items  .item .facebook{
+     margin-top: 2px;
+     margin-left: 40px;
+}
+.clients .items  .item .ibm{
+     margin-top: 2px;
+     margin-left: 40px;
+}
+.contact-us .inputs .left-side{
+     float:left;
+     width:60%;
+}
+.contact-us .inputs .left-side .txt{
+    padding:20px 90px;
+}
+.contact-us .inputs .right-side{
+    float:right;
+    width:40%;
+}
+.contact-us .inputs .right-side .area{ 
+    border-color: #dc3545;
+    border-radius: 10px;
+    font-size: 23px;
+}
+.contact-us .inputs{
+    margin-top: 100px;
+}
+.footer .left-item{
+    float:left;
+    width:30%;
+    padding-bottom: 20px;
+}
+.footer .left-item p{
+    font-size: 16px;
+    width:100%;
+}
+.footer .content-footer{
+    float:right;
+    width:70%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer .content-footer .icons{
+    float:left;
+    width:30%;
+    margin-left: 70px;
+}
+.footer .content-footer .right-item{
+    float:right;
+    width:50%;
+    margin-top: 5px;
+}
+.footer .content-footer .icons ul li {
+    margin-right: 0px;
+ }
+.footer .content-footer .icons ul li i{
+    font-size: 20px;
+    width:40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+.footer .content-footer .right-item ul li{
+    display:inline-block;
+    margin-left: 10px;
+}
+.footer .content-footer .right-item ul li a{
+    font-size: 16px;
+    margin-right: 5px;
+}
+    
+}
